@@ -5,7 +5,7 @@ import Blob from "./blob";
 
 const Hero = () => {
   return (
-    <section className="bg-teal-700 relative flex flex-col md:flex-row items-center justify-between md:px-20 px-4  pt-8 ">
+    <section className="bg-teal-700 relative flex flex-col md:flex-row items-center justify-between md:px-20 px-4 pt-8 ">
       {/* Texte à gauche */}
       <div className="max-w-lg z-10">
         <h1 className="text-4xl md:text-5xl font-bold text-white">

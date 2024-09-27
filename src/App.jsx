@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import MissionComponent from './components/MissionComponent'
 
 
 
 function App() {
   return (
-   <div className='bg-teal-700'>
+   <div className=''>
     <Navbar/>
     <Hero/>
+    <MissionComponent/>
    </div>
   )
 }
