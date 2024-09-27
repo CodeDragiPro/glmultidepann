@@ -2,7 +2,7 @@ import React from 'react';
 
 const PriceCard = ({ title, toggleVisibility }) => {
   return (
-    <div className="bg-white shadow-lg rounded-lg p-6 text-center flex flex-col items-center max-w-xs mx-auto md:max-w-m">
+    <div className="bg-white shadow-lg rounded-lg p-6 text-center flex flex-col items-center max-w-m mx-auto md:max-w-m">
       <div className="bg-teal-700 text-white px-4 py-1 rounded-full text-lg font-semibold">
         {title}
       </div>
