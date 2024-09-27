@@ -11,7 +11,7 @@ import arbreicon from "../assets/arbre.svg";
 const MissionComponent = () => {
   return (
     <div>
-      <h2 className="text-3xl font-bold text-center pt-4">NOTRE MISSION</h2>
+      <h2 className="text-3xl font-bold text-center pt-4 text-teal-700">NOTRE MISSION</h2>
 
       <div className="flex flex-wrap justify-center lg:justify-between items-center mx-auto py-10 max-w-7xl md:px-20 px-4">
         {/* Left Side (Image Grid) */}
