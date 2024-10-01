@@ -1,6 +1,6 @@
 import React from "react";
-import { FaFacebookF, FaTwitter } from "react-icons/fa"; // Import des icônes Facebook et Twitter
-import Logo from "./logo";
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa"; // Import des icônes des réseaux sociaux
+import Logo from "./Logo"; // Assurez-vous que le chemin est correct
 
 const Footer = () => {
   return (
@@ -51,7 +51,7 @@ const Footer = () => {
 
         {/* Social Media Icons & Copyright Section */}
         <div className="flex flex-col items-center md:items-end space-y-4">
-          <div className="flex space-x-6">
+          <div className="flex space-x-4">
             <a
               href="https://www.facebook.com"
               target="_blank"
@@ -68,12 +68,29 @@ const Footer = () => {
             >
               <FaTwitter size={24} />
             </a>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-gray-300 transition duration-200"
+            >
+              <FaInstagram size={24} />
+            </a>
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-gray-300 transition duration-200"
+            >
+              <FaLinkedin size={24} />
+            </a>
           </div>
-          <p className="text-sm mt-4">
+          <div className="flex items-center justify-center">
+          <p className="text-sm mt-4 text-center md:text-right">
             © {new Date().getFullYear()}{" "}
             <a
               href="https://www.codedragi.fr"
-              className="text-blue-500 hover:underline"
+              className="text-pink-500 hover:underline font-semibold"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -81,6 +98,8 @@ const Footer = () => {
             </a>
             . Tous droits réservés.
           </p>
+          </div>
+          
         </div>
       </div>
     </footer>
