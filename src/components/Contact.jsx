@@ -33,7 +33,7 @@ const Contact = () => {
           </div>
 
           {/* Right Section - Contact Form */}
-          <div className="lg:w-1/2 bg-yellow-400 rounded-lg p-8 w-full">
+          <div className="lg:w-1/2 bg-white rounded-lg p-8 w-full">
             <form className="flex flex-col gap-4">
               <div className="flex flex-col md:flex-row gap-4">
                 <div className="flex-1">

@@ -1,0 +1,16 @@
+# Ignorer le fichier .env
+.env
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Output de build
+dist/
+
+# Cache local
+.vite/
